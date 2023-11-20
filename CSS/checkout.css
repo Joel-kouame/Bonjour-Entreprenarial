@@ -1,0 +1,57 @@
+/* mon css */
+*{
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand img{
+  width: 100px;
+  height: auto;
+}
+.nav-link{
+  font-size: 1.05em;
+  color: #5f3ea2;
+}
+.collapse{
+  display: flex;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.reserv, .reçu, .reclam{
+  padding: 15px;
+}
+.reserv{
+  background: #111440;
+}
+.reçu{
+  background: #1F2373;
+}
+.reclam{
+  background-color: #626490;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.raison{
+  margin: 20px 0px;
+}
+.raison li {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
